@@ -7,7 +7,7 @@ import java.sql.*;
  * sqljdbc_auth.dll is copied to project folder
  */
 
-public class stmtMain {
+public class StmtMain {
 
 	public static void main(String[] args) throws SQLException {
 		Connection connection = DriverManager.getConnection("jdbc:sqlserver://localhost:1433; username=sa; password=password; DatabaseName = northwind");
