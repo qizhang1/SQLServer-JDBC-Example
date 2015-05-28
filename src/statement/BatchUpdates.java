@@ -2,6 +2,7 @@ package statement;
 
 import java.sql.*;
 
+
 public class BatchUpdates {
 
 	/*
